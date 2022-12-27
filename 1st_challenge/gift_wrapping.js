@@ -1,4 +1,7 @@
-const gifts = ['cat', 'game', 'socks'];
+/* For test */
+// const gifts = ['cat', 'game', 'socks'];
+// const wrapped = wrapping(gifts);
+// console.log(wrapped);
 
 function wrapping(gifts) {
   let gifts_wrapped = [];
@@ -8,6 +11,3 @@ function wrapping(gifts) {
   }
   return gifts_wrapped;
 }
-
-const wrapped = wrapping(gifts);
-console.log(wrapped);
