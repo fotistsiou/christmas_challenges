@@ -1,5 +1,5 @@
-// https://adventjs.dev/challenges/2022/1
 const gifts = ['cat', 'game', 'socks'];
+
 function wrapping(gifts) {
   let gifts_wrapped = [];
   for (let x of gifts) {
@@ -8,5 +8,6 @@ function wrapping(gifts) {
   }
   return gifts_wrapped;
 }
+
 const wrapped = wrapping(gifts);
 console.log(wrapped);

@@ -1,4 +1,4 @@
-Challenge from: https://adventjs.dev/challenges/2022/1
+Source: https://adventjs.dev/challenges/2022/1
 
 The elves bought a gift-wrapping machine this year. But it's not programmed! We need to create an algorithm that helps it in the task.
 
@@ -10,6 +10,7 @@ const gifts = ['cat', 'game', 'socks']
 const wrapped = wrapping(gifts)
 
 console.log(wrapped)
+
 /* [
   "*****\n*cat*\n*****",
   "******\n*game*\n******",
